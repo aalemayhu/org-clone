@@ -1,0 +1,36 @@
+{
+  "name": "@scanf/org-clone",
+  "version": "0.3.1",
+  "description": "update your GitHub bio from the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo mocha test",
+    "lint": "eslint --fix *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanf/org-clone.git"
+  },
+  "bin": {
+    "org-clone": "cli.js"
+  },
+  "keywords": [
+    "github",
+    "bio"
+  ],
+  "author": "Alexander Alemayhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scanf/org-clone/issues"
+  },
+  "homepage": "https://github.com/scanf/org-clone#readme",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.3.0",
+    "chalk": "^2.4.1",
+    "nodegit": "^0.23.0"
+  }
+}
