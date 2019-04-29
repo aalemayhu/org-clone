@@ -1,7 +1,7 @@
 {
   "name": "@scanf/org-clone",
   "version": "0.3.1",
-  "description": "update your GitHub bio from the CLI",
+  "description": "easily clone a organizations public repositories",
   "main": "index.js",
   "scripts": {
     "test": "echo mocha test",
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "github",
-    "bio"
+    "organization",
+    "clone"
   ],
   "author": "Alexander Alemayhu",
   "license": "MIT",
