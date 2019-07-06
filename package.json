@@ -1,6 +1,6 @@
 {
   "name": "@scanf/org-clone",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "easily clone a organizations public repositories",
   "main": "index.js",
   "scripts": {
